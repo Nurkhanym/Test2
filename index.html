@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Art Gallery</title>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">RGB Art Gallery</h1>
+        <ul class="nav-links" style="padding-left: 5px">
+            <li><a href="#"></a>HOME</li>
+            <li><a href="#"></a>EVENTS</li>
+            <li><a href="#"></a>STAFF</li>
+            <li><a href="#"></a>CAFE</li>
+            <li><a href="#"></a>RENT</li>
+            <li><a href="#"></a>CONTACTS</li>
+            <li class="ctn"><a href="#"></a>contact</li>
+        </ul>
+
+        <img src="./img/menu-btn.png" class="menu-btn">
+
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>WE LOVE ART</h2>
+            <div class="line"></div>
+            <h1>CREATIVE</h1>
+            <h1 id="cl"> MINDS</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <img class="pic2" src="./img/pic2.jpg" alt="">
+            <img class="pic4" src="./img/pic4.jpg" alt="" style="height: 569px; width: 278px; ">
+        </div>
+    </section>
+
+    <section class="mk">
+        <div class="Title2">
+            <h1>UPCOMING MASTER CLASSES</h1>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img id="pic" src="./img/IMG_1338.jpg" alt="">
+                <h4>POTTERY</h4>
+                <p>
+                    A great way to relieve everyday 
+                    stress and come to inner peace
+                </p>
+                <a href="#" class="ctn">learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/IMG_8222.jpg" alt="">
+                <h4>LECTURE "HISTORY OF ART"</h4>
+                <p>
+                    If you have no art history education,
+                    but craving for beauty haunts.
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/IMG_8218.jpg" alt="">
+                <h4>ART CLASS</h4>
+                <p>
+                    Вetailed master class 
+                    on human anatomy
+                    </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="explore">
+        <div class="explore-content">
+            <h1>COFFEE - ART HUB - SPACE</h1>
+            <div class="line"></div>
+            <p>Eat Drink Read Enjoy</p>
+            <a href="#" class="ctn">Read More</a>
+        </div>
+    </section>
+
+    <div class="news">
+        <h3>People</h3>
+        <p class="subTitle">‘Inspiration Has No Rules’: Fashion Designer Christian Siriano on How His Creative Work Shapes 
+            His Freewheeling Approach to Art Collecting</p>
+        <p id="paragr">We spoke to the New York- and Connecticut-based fashion designer about buying art, making art, and what art and fashion have in common.
+            The award-winning fashion designer Christian Siriano has made his name creating fantastical, out-of-this-world gowns that sometimes resemble artworks as much as they do dresses. 
+
+After winning Project Runway’s fourth season and founding his eponymous label in 2008, the 35-year-old designer has become one of the fashion world’s most tapped young talents. Clients including Lady Gaga, Michelle Obama, Angelina Jolie, Cardi B, and Scarlett Johansson regularly turn up on the red carpet outfitted in sculptural pieces that reflect his love of,
+ and background in, the visual arts.
+ In 2018, Siriano dressed a record 17 women at the Academy Awards. The following year, the actor Billy Porter debuted one of the designer’s most renowned creations—a tuxedo jacket from which bloomed a strapless, full-skirted velvet black gown—at the Oscars, becoming that year’s most Google-searched red-carpet look and cementing Siriano as a designer who cares deeply about inclusivity in fashion.
+
+This year, Siriano has branched out further, breaking down boundaries among creative disciplines. He launched an interior design studio that seeks to create spaces with the same spirit and verve as his colorful gowns and he has even begun making and exhibiting his own fine art. He also has three dresses on view at the Metropolitan Museum of Art Costume Institute show “In America: A Lexicon” and returned as a judge on Project Runway’s 19th season, which premiered last week. 
+
+
+        </p>
+    </div>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides">
+          <img src="./img/pic15.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <img src="./img/pic12.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <img src="./img/pic11.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <img src="./img/pic14.jpg" style="width:100%">
+        </div>
+        <div class="mySlides">
+            <img src="./img/pic13.jpg" style="width:100%">
+          </div>
+      
+      </div>
+      <br>
+      
+    
+    <script src="script.js"></script>
+
+    <section class="footer">
+        <p id="f">RGB Art Gallery</p>
+        <p id="s">Lorem ipsum sit amet consectetur adipisicising elit. Ratione veniam amet autem sunt, perspiciatis nemo</p>
+        <p id="t">Copyrigth @2020 CodeOpacity. Design By rnugha</p>
+
+    </section>
+
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const navlinks = document.querySelector('.nav-links');
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+    
+</body>
+</html>
